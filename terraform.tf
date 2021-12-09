@@ -1,6 +1,6 @@
 module "ec2" {
 
-  source = "Module"
+  source = "./Module/"
 
   region = "us-west-2"
 
