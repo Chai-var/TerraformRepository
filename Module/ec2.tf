@@ -12,7 +12,7 @@ resource "aws_instance" "ec2_pro" {
 
     instance_type = "${var.instance_type}"
 
-    key_name = "ProductionServer_Key"
+    key_name = "oregon_iam_key"
 
 
     tags = {
